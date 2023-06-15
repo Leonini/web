@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="Login.css">
+
+  <title>Inicio de Sesión</title>
+</head>
+
+<body>
+  <navbar>
+    <div class="container">
+      <nav>
+        <ul>
+          <li class="listaNav"><a class="outline" onclick href="duemay.html">Inicio</a></li>
+          <li class="listaNav"><a href="" class="outline">Registro evento</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="logo">
+      <h4>Iniciar Sesión / Registrarse</h4>
+    </div>
+  </navbar>
+  <div class="formulario">
+    <form action="" method="get">
+      <ul>
+        <li>
+          <label abel for="name" id="peticion">Nombre de Usuario:</label>
+          <input type="text" id="name" name="user_name" required autofocus>
+        </li>
+        <li>
+          <label for="name" id="peticion">Contraseña:</label>
+          <input type="password" id="name" name="user_name" required autofocus>
+        </li>
+        <li>
+          <label for="name" id="peticion">Confirmar Contraseña:</label>
+          <input type="password" id="name" name="user_name" required autofocus>
+        </li>
+        <li>
+          <label for="mail" id="peticion">Correo electrónico:</label>
+          <input type="email" id="name" name="user_mail" placeholder="nombregenial@gmail.com" required autofocus>
+          <div class="botonenviar" id="enviar" onclick="enviarsesion(0)">
+            Pregunta
+        </li>
+        </li>
+      </ul>
+  </div>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Relacionamos el html con el css-->
+    <link rel="stylesheet" href="duemay.css">
+
+    <title>DueMay</title>
+</head>
+<!--Creamos una simple barra de navegación, con sus clases en una lista -->
+
+<body>
+    <div class="navbar">
+            <div class="container flex">
+              <h1 class="logo"><u>Synthwave Radio</u></h1>
+                <nav>
+                  <ul>
+                    <li class="nav"><a class="outline" onclick href="Login.html">Log in</a></li>
+                    <li class="nav"><a href="" class="outline">Check courses</a> 				</li>
+                  </ul>
+                </nav>
+            </div>
+          </div>
+          <section class="showcase">
+            <div class="container">
+                <div class="grid">
+                  <div class="grid-item-1">
+                    <div class="showcase-text">
+                      <h1>Escucha la estación de Synthwave Radio aquí!</h1>
+                      <ul class="supporting-text"> <li> - Scandroid/Lucy In Disguise</li> 
+                        <li>- I Remember You</li> 
+                        <li>- Lucy In Disguise Remix Marvel83'</li> 
+                        <li>- Landing FL KRISTINE </li>
+                        <li>- Wild Heart</li>
+                        <li>- Timecop1983/Josh Dally </li>
+                        <li>- Neon Lights.</li>
+                    </ul>
+                    </div>
+                    <div class="showcase-form">
+                      <form action="">
+                        <audio controls preload="none" class="relative bg-fuchsia-900 rounded-full">
+                        <source src="https://icecast.synthwaveradio.eu:8000/live?nocache=154630"></audio>
+                      </form>
+                      <h2 class="little-info">Qué es Synthwave?
+                    </h2>
+                    <p><u>Synthwave</u> es un género musical estético que tiene mucho en común con la estética de los 80. A menudo se compara con Vaporwave, pero existen algunas diferencias entre los dos géneros.</p>
+                      <h2 class="little-info">Qué es Retrowave?</h2>
+                      <p><u>Retrowave</u> es un subgénero de Synthwave y principalmente imita el estilo que se hizo popular en los años 80.                      </p>
+                    </div>
+                  </div>
+    
+                  <div class="grid-item-2">
+                    <div class="image">
+                      <img src="./images/synthwave.gif" alt="">
+                    </div>
+                  </div>
+               </div>
+    
+            </div>
+          </section>
+</body>
+</html>
